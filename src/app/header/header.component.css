@@ -1,9 +1,10 @@
 .header{
     margin: 0px;
     background-color:rgb(255, 243, 175);
+    height: 2cm;
 }
 h1{
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     margin: 0px;
 }

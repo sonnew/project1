@@ -7,7 +7,10 @@ ul {
   }
   
   li {
-    float: right;
+    display: inline-block;
+    width: 24.89%;
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
   }
 
   li a{
@@ -16,6 +19,7 @@ ul {
       text-align: center;
       color: black;
       padding: 5px 100px;
+      text-decoration: none;
   }
 
   li a:hover:not(.active) {

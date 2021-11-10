@@ -8,6 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class BodyComponent {
 
  titel="Hallo";
- data="welkom";
+ data="bij mijn eerste Angular project.";
 
 }

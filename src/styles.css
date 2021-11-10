@@ -1,5 +1,30 @@
 body{
     margin: 0px;
-    background-image: url('assets/NYCity.jpg');
-    background-size: 100%;
+    color:white;
 }
+
+.background-image{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    background-image: url('assets/NYCity.jpg');
+    width: 1925px;
+    height: 865px;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(2px);
+    
+}
+
+.content {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-left: 20px;
+    margin-right: 20px;
+  }

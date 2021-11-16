@@ -1,17 +1,17 @@
 .header{
     margin: 0px;
-    background-color:rgb(175, 236, 255);
+    background-color:#C5E7FF;
     height: 2cm;
-    color: black;
 }
-head{
+.header h1{
     font-size: 50px;
     text-align: center;
     margin: 0px;
+    color: black;
 }
 
-image{
-    background-image: url('assets/NYvlag.png'); 
-    float: right;
+.header img{
+    float:right;
+    width: 5cm;
+    height: 2cm;
 }
-

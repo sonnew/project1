@@ -9,8 +9,8 @@ ul {
   li {
     display: inline-block;
     width: 24.89%;
-    border-left: 1px solid rgb(255, 255, 255);
-    border-right: 1px solid rgb(255, 255, 255);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
   }
 
   li a{
